@@ -21,27 +21,6 @@ This project implements a machine learning-based network anomaly detection syste
 
 ---
 
-### **Installation**
-1. **Clone the repository**:  
-   ```bash
-   git clone https://github.com/your-username/network-anomaly-detection.git
-   cd network-anomaly-detection
-   ```
-2. **Install dependencies**:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Set up virtual machines for the network environment**:  
-   - Install VirtualBox or VMware and create two VMs (client and server) running Ubuntu.  
-   - Configure the network, install Wireshark, and generate network traffic using tools like `hping3` and `nmap`.  
-
-4. **Run the web application**:  
-   ```bash
-   python app.py
-   ```
-
----
-
 ### **Usage**
 1. **Data Capture**:
    - Simulate normal traffic using `curl` and anomalous traffic using tools like `hping3` for SYN flood attacks.
